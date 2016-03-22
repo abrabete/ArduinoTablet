@@ -1,6 +1,5 @@
 #include <genieArduino.h>
 
-// This Demo communicates with a 4D Systems Display, configured with ViSi-Genie, utilising the Genie Arduino Library - https://github.com/4dsystems/ViSi-Genie-Arduino-Library.
 // The display has a slider, a cool gauge, an LED Digits, a string box and a User LED.
 // The program receives messages from the Slider0 object using the Reported Events. This is triggered each time the Slider changes on the display, and an event
 // is genereated and sent automatically. Reported Events originate from the On-Changed event from the slider itself, set in the Workshop4 software.
