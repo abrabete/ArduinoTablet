@@ -1,0 +1,95 @@
+﻿Version     0.0
+Platform    uLCD-43PT-LR
+PlatRes     272x480
+Depends
+end
+Options
+    Genie
+    Speed                        200000
+    Checksum                     No
+    ResponseSize                 1
+    Multidrop                    No
+    Destination                  1
+    MainForm                     0
+    SndBuf                       2
+    ButtonDisable                No
+    SignedDigits                 No
+end
+Form
+    Name                         Form0
+    Alias                        Form0
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings1
+    Alias                        Strings1
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       272
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          0
+    Width                        151
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings0
+    Alias                        Strings0
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       272
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         287
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          0
+    Width                        193
+    OnChanged                    ''
+end
+Label
+    Name                         Label0
+    Alias                        Label0
+    4DGLFont.Font                FONT3
+    4DGLFont.Bold                No
+    4DGLFont.Italic              No
+    4DGLFont.Inverse             No
+    4DGLFont.Underline           No
+    4DGLFont.MagWidth            2
+    4DGLFont.MagHeight           2
+    4DGLFont.Opaque              Yes
+    BGcolor                      BLACK
+    Caption                      HELLO
+    FGcolor                      WHITE
+    Left                         200
+    Top                          108
+end
